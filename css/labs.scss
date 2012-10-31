@@ -1,0 +1,420 @@
+/*!
+ *
+ *
+ * - Neil Carpenter V1
+ * - labs.css
+ * - author: Neil Carpenter (@neilcarpenter)
+ * - for development code, remove '.min' from URL
+ *
+ *
+ */
+
+/*
+ * - DEVELOPMENT CODE
+ */
+   
+@charset "UTF-8";
+
+   /*
+	*
+	* 	LABS STYLES 
+	*
+	*
+	*/
+
+/****	GENERAL		****/
+/* main heading */
+#content h1 {
+	width: 100%;
+	margin: 0 0 30px;
+	padding: 15px 0;
+	text-align: center;
+	/* OLD ONE
+	font: normal 24px/28px "ff-basic-gothic-web-pro", Arial, Helvetica, sans-serif;
+	letter-spacing: 14px;
+	text-transform: uppercase;
+	*/
+	font: normal 34px/28px "Bistro-Script-Web", Helvetica, Arial, sans-serif;
+	color: rgba(85,85,85,0.5);
+	text-shadow: 1px 0 0 rgba(255,255,255,0.7);
+}
+
+/****	PROJECT NAV		****/
+.project-nav-holder {
+	width: 100%;
+	float: left;
+	margin: 0;
+}
+.project-nav-holder a {
+	position: relative;
+	display: block;
+	height: 50px;
+	width: 50px;
+	background: url(../i/arrows.png) no-repeat;
+	opacity: 0.8;
+	border: none;
+}
+.project-nav-holder a span {
+	position: absolute;
+	opacity: 0;
+	color: #555;
+	-webkit-transition: all .3s ease-out;
+	   -moz-transition: all .3s ease-out;
+	    -ms-transition: all .3s ease-out;
+		 -o-transition: all .3s ease-out;
+			transition: all .3s ease-out;
+}
+.project-nav-holder .prev-project {
+	float: left;
+	background-position: bottom left;
+}
+.project-nav-holder .next-project {
+	float: right;
+}
+.project-nav-holder .prev-project span {
+	left: 10px;
+	text-align: right;
+	padding: 0 0 0 20px;
+}
+.project-nav-holder .next-project span {
+	right: 10px;
+	padding: 0 20px 0 0;
+}
+.project-nav-holder a:hover {
+	opacity: 1;
+}
+.project-nav-holder a:hover span {
+	opacity: 1;
+}
+.project-nav-holder .prev-project:hover span {
+	left: 40px;
+}
+.project-nav-holder .next-project:hover span {
+	right: 40px;
+}
+header .project-nav {
+	display: none;
+	width: auto;
+	float: left;
+	position: relative;
+	margin: 5px 20px;
+	-webkit-border-radius: 30px;
+	   -moz-border-radius: 30px;
+			border-radius: 30px;
+	background: rgba(85, 85, 85, 0.2);
+}
+.current-project {
+	width: 100%;
+	display: inline;
+	padding: 14px 80px;
+	margin: 0;
+	float: left;
+ 	font: normal 32px/32px "Bistro-Script-Web", Helvetica, sans-serif;
+	text-align: center;
+	color: #fff;
+	color: rgba(255,255,255,0.9);
+	opacity: 0.9;
+}
+header .prev-project span, 
+header .next-project span {
+	position: absolute;
+	top: 5px;
+	background: url(../i/arrows.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 25px;
+	   -moz-border-radius: 25px;
+			border-radius: 25px;
+	text-indent: -9999px;
+	z-index: 1;
+	opacity: 0.5;
+	-webkit-transition: all .3s ease-out;
+	   -moz-transition: all .3s ease-out;
+	    -ms-transition: all .3s ease-out;
+		 -o-transition: all .3s ease-out;
+			transition: all .3s ease-out;
+}
+header .prev-project span {
+	left: 5px;
+	background-position: bottom left;
+}
+header .next-project span {
+	right: 5px;
+}
+header .prev-project span:hover, 
+header .next-project  span:hover {
+	opacity: 1;
+}
+header.fixed .project-nav {
+	display: block;
+}
+
+/****	SHARERS		****/
+.no-js .sharers {
+	display: none;
+}
+.sharers {
+	width: 100%;
+	height: 115px;
+	float: left;
+	margin: 30px 0;
+	position: relative;
+	overflow: hidden !important;
+}
+.sharers-buttons {
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+.sharers-buttons {
+	opacity: 0;
+}
+.twitter-share-button, 
+.fb-like, 
+#___plusone_0 {
+	width: 33% !important;
+	float: left;
+}
+.twitter-share-button {
+	margin-top: 12px;
+}
+.fb-like, 
+#___plusone_0 {
+	margin-top: 10px !important;
+}
+.sharers-image {
+	margin-top: -40px;
+	position: relative;
+	float: left;
+	height: 40px;
+	width: 33%;
+	background: url(../i/contact-icons.png) no-repeat center -5px;
+	-webkit-transition: all .3s ease-out;
+	   -moz-transition: all .3s ease-out;
+	    -ms-transition: all .3s ease-out;
+		 -o-transition: all .3s ease-out;
+			transition: all .3s ease-out;
+	cursor: pointer;
+}
+.sharers-image:hover {
+	opacity: 0.5;
+}
+.sharers-image:before, 
+.sharers-image:after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	background: url(../i/contact-icons.png) no-repeat;
+}
+.sharers-image:before {
+	left: 100%;
+	background-position: center -125px;
+}
+.sharers-image:after {
+	left: 200%;
+	background-position: center -243px;
+}
+
+/****	MAIN IMAGE		****/
+.labs-image {
+	margin: 0 0 30px;
+	position: relative;
+
+	> div {
+		position: relative;
+		overflow: hidden;
+		height: 300px;
+		border: 10px solid rgba(85, 85, 85, 0.2);
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+				border-radius: 5px;
+
+		img {
+			width: 100%;
+			position: absolute;
+			top: -20%;
+		}		
+	}
+
+	h1 {
+		#content & {
+			position: absolute;
+			background: rgba(119, 23, 23, 0.9);
+			color: white;
+			text-shadow: 1px 1px 0 black;
+			width: auto;
+			padding: 15px 20px;			
+			margin: 0;
+			left: 15px;
+			bottom: 15px;
+			z-index: 10;
+			-webkit-border-radius: 0 5px 0 5px;
+			   -moz-border-radius: 0 5px 0 5px;
+					border-radius: 0 5px 0 5px;
+		}
+	}
+
+}
+
+/****	THIRDS LAYOUT: ****/
+
+.description {
+	float: left;
+	width: 65.5%;
+	margin: 0;	
+}
+.links-sharers-labs-nav {
+	float: right;
+	width: 32.0987655%;
+	margin: 0;		
+}
+
+/****	LINKS 			****/
+.links h2 {
+	float: none;
+}
+.visit-demo,
+.visit-github,
+.visit-codepen {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding: 15px 50px 15px 15px;
+	margin: 0 0 6px;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+			border-radius: 5px;
+	border-bottom: none;
+	text-transform: uppercase;
+	text-decoration: none;
+	font: normal 12px/14px "ff-basic-gothic-web-pro", Arial, Helvetica, sans-serif;
+	letter-spacing: 7px;
+	color: rgba(0,0,0,0.8);
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	background: rgba(85,85,85,0.3);
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+	-webkit-box-shadow:  0 2px 0 rgba(0,0,0,0.5);
+	   -moz-box-shadow:  0 2px 0 rgba(0,0,0,0.5);
+			box-shadow:  0 2px 0 rgba(0,0,0,0.5);
+}
+.visit-demo:hover,
+.visit-github:hover,
+.visit-codepen:hover {
+	border-bottom: none;
+	background: rgba(85,85,85,0.2);
+}
+.visit-demo:active,
+.visit-github:active,
+.visit-codepen:active {
+	top: 2px;
+	border-top-color: rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	   -moz-box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+			box-shadow: inset 0 2px 8px hsla( 0, 0%, 0%, 0.6 );
+	-webkit-transition: none;
+	   -moz-transition: none;
+	    -ms-transition: none;
+		 -o-transition: none;
+			transition: none;
+}
+.visit-demo:before,
+.visit-github:before,
+.visit-codepen:before {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	top: 12px;
+	font: normal 20px/20px 'NeilCarpenterV1';
+	text-transform: none;
+	text-align: center;
+}
+.visit-demo:before {
+	content: 'e';
+}
+.visit-github:before {
+	content: 'G';
+}
+.visit-codepen:before {
+	content: 'C';
+}
+
+/****	MEDIA QUERIES ****/
+@media (max-width: 1024px) {
+	.labs-image {
+		margin: 0 0 20px;
+	}
+	.sharers {
+		margin: 20px 0;
+	}
+	.project-nav-holder .prev-project span {
+		left: 40px;
+		opacity: 0.8;
+	}
+	.project-nav-holder .next-project span {
+		right: 40px;
+		opacity: 0.8;
+	}
+}
+@media (max-width: 905px) {
+	.description,
+	.links-sharers-labs-nav {
+		width: 100%;
+	}
+	.description {
+		margin: 0 0 20px;
+	}
+	.labs-image > div img {
+		top: 0;
+	}
+}
+@media (max-width: 768px) {
+	#content h1.module {
+		margin: 0 0 20px;
+	}
+}
+@media (max-width: 740px) {
+	.labs-image > div {
+			height: auto;
+			border-width: 5px;
+
+			img {
+				top: 0;
+				position: relative;
+		}
+	}
+}
+@media (max-width: 570px) {
+	#content .labs-image h1 {
+		bottom: 10px;
+		left: 10px;
+	}
+}
+@media (max-width: 500px) {
+	#content {
+		margin-top: 50px;
+		margin-bottom: 60px;	
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-o-min-device-pixel-ratio: 3/2),
+screen and (min-device-pixel-ratio: 1.5) {
+.project-nav-holder a {
+	background-image: url(../i/arrows@2.png);
+	-webkit-background-size: 50px 100px;
+	-moz-background-size: 50px 100px;
+	background-size: 50px 100px;
+}
+.sharers-image, 
+.sharers-image:before, 
+.sharers-image:after {
+	background-image: url(../i/contact-icons@2.png);
+	-webkit-background-size: 40px 360px;
+	-moz-background-size: 40px 360px;
+	background-size: 40px 360px;
+}
+}
