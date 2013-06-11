@@ -35,7 +35,7 @@
             
 			<p class="intro-sub">I stay on top of the latest standards-based web technologies to help create interesting, interactive and nice-looking interfaces and experiences.</p>
             
-            <p>I live in London with my <a href="http://twitter.com/annieannier" target="_blank" title="Annie reluctantly on Twitter">nice ginger girlfriend</a> and currently work at <a href="http://outsideline.co.uk" title="Outside Line" target="_blank">Outside Line</a>. Other than staring at a screen I occasionally do other stuff, I won't bore you with the details.</p>
+            <p>I live in London with my <a href="http://twitter.com/annieannier" target="_blank" title="Annie reluctantly on Twitter">nice ginger girlfriend</a> and currently work at <a href="http://www.saatchi.co.uk/" title="Saatchi & Saatchi" target="_blank">Saatchi & Saatchi</a>. Other than staring at a screen I occasionally do other stuff, I won't bore you with the details.</p>
             
 			<p>This site is a <a href="http://www.alistapart.com/articles/responsive-web-design/" target="_blank" title="Responsive Web Design by Ethan Marcotte, on A List Apart">responsive design</a>, with a heavy focus on CSS-only presentation attempting to make it as scalable, future-proof and mobile-friendly as possible, and built with progressive enhancement and strong client-side optimisation as essentials. Full colophon in <a href="http://neilcarpenter.com/2012/05/making-this-site/" title="Making this site">this blog post about what's in this site</a>.</p>
             

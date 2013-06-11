@@ -131,30 +131,55 @@ $(window).load(function() {
 	});
 
 
-	// trying twitter feed with api
+	// trying twitter feed with api - OLD ONE NO WORK ANY MO
 	//setTimeout(function(){
-	var twitterURL = 'https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&screen_name=neilcarpenter&count=1000&include_rts=false&exclude_replies=true&callback=?';
-	$.getJSON(twitterURL, function(data){
-		var tweetText = (data[0].text);
+	// var twitterURL = 'https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&screen_name=neilcarpenter&count=1000&include_rts=false&exclude_replies=true&callback=?';
+	// $.getJSON(twitterURL, function(data){
+	// 	var tweetText = (data[0].text);
 
+	// 	tweetText = tweetText.replace(/(http\:\/\/[A-Za-z0-9\/\.\?\=\-]*)/g,'<a href="$1" title="View this link" target="_blank">$1</a>');
+	// 	tweetText = tweetText.replace(/(https\:\/\/[A-Za-z0-9\/\.\?\=\-]*)/g,'<a href="$1" title="View this link" target="_blank">$1</a>');
+	// 	tweetText = tweetText.replace(/@([A-Za-z0-9\/_]*)/g,'<a href="http://twitter.com/$1" title="$1 on Twitter" target="_blank">@$1</a>');
+	// 	tweetText = tweetText.replace(/#([A-Za-z0-9\/\.]*)/g,'<a href="http://twitter.com/search?q=$1" title="See results for $1 on Twitter" target="_blank">#$1</a>');
+					
+	// 	var html = '<span class="tweet">' + tweetText + '</span>';
+		
+	// 	$('#twitter-fallback').fadeOut(300, function(){
+	// 		$(this).remove();
+	// 		$('#tweets').append(html);
+	// 		$('.tweet').animate({
+	// 			opacity: 1,	
+	// 		},300, function(){
+	// 			$socialModule.attr('style','');
+	// 			moduleDimensions();
+	// 		});
+	// 	});
+	// });
+
+	// BURRRR twitter API v1.1
+	(function(){
+		var html;
+		var tweetText = $.parseJSON( $('#tweetsData').text() );
+		tweetText = tweetText[0].text;
 		tweetText = tweetText.replace(/(http\:\/\/[A-Za-z0-9\/\.\?\=\-]*)/g,'<a href="$1" title="View this link" target="_blank">$1</a>');
 		tweetText = tweetText.replace(/(https\:\/\/[A-Za-z0-9\/\.\?\=\-]*)/g,'<a href="$1" title="View this link" target="_blank">$1</a>');
 		tweetText = tweetText.replace(/@([A-Za-z0-9\/_]*)/g,'<a href="http://twitter.com/$1" title="$1 on Twitter" target="_blank">@$1</a>');
 		tweetText = tweetText.replace(/#([A-Za-z0-9\/\.]*)/g,'<a href="http://twitter.com/search?q=$1" title="See results for $1 on Twitter" target="_blank">#$1</a>');
-					
-		var html = '<span class="tweet">' + tweetText + '</span>';
-		
+		html = '<span class="tweet">' + tweetText + '</span>';
+
 		$('#twitter-fallback').fadeOut(300, function(){
 			$(this).remove();
 			$('#tweets').append(html);
 			$('.tweet').animate({
-				opacity: 1,	
+				opacity: 1
 			},300, function(){
 				$socialModule.attr('style','');
 				moduleDimensions();
 			});
 		});
-	});
+	})();
+
+
 	//}, 1000);
 	
 	// adding Flickr script

@@ -29,20 +29,20 @@
 			<div class="flexslider">
 		    <ul class="slides">
 		    	<li>
-		    		<img src="http://neilcarpenter.com/wp-content/uploads/2012/08/slide-ikings_SML.jpg" data-smallsrc="http://neilcarpenter.com/wp-content/uploads/2012/08/slide-ikings_SML.jpg" data-mediumsrc="http://neilcarpenter.com/wp-content/uploads/2012/08/slide-ikings_MED.jpg" data-largesrc="http://neilcarpenter.com/wp-content/uploads/2012/08/slide-ikings_LRG.jpg" alt="iKing's multimedia gateway" class="RWD-i" />
-                    <div class="flex-caption"><h2 class="section-heading">iKing's multimedia gateway</h2><span>Wall of multimedia</span><a href="http://neilcarpenter.com/work/ikings-multimedia-gateway/" class="more-other" title="iKing's multimedia gateway">View this</a></div>
-		    	</li>
-		    	<li>
 		    		<img src="http://neilcarpenter.com/wp-content/uploads/2012/10/circle-warp-home2_SML.jpg" data-smallsrc="http://neilcarpenter.com/wp-content/uploads/2012/10/circle-warp-home2_SML.jpg" data-mediumsrc="http://neilcarpenter.com/wp-content/uploads/2012/10/circle-warp-home2_MED.jpg" data-largesrc="http://neilcarpenter.com/wp-content/uploads/2012/10/circle-warp-home2_LRG.jpg" alt="Circle warp" class="RWD-i" />
                     <div class="flex-caption"><h2 class="section-heading">Cirle warp</h2><span>Warped canvas</span><a href="http://neilcarpenter.com/labs/circle-warp/" class="more-other" title="Circle warp">View this</a></div>
 		    	</li>
 		    	<li>
-		    		<img src="http://neilcarpenter.com/wp-content/uploads/2012/05/slide-rkcl_SML.jpg" data-smallsrc="http://neilcarpenter.com/wp-content/uploads/2012/05/slide-rkcl_SML.jpg" data-mediumsrc="http://neilcarpenter.com/wp-content/uploads/2012/05/slide-rkcl_MED.jpg" data-largesrc="http://neilcarpenter.com/wp-content/uploads/2012/05/slide-rkcl_LRG.jpg" alt="Responsive King's" class="RWD-i" />
-                    <div class="flex-caption"><h2 class="section-heading">Responsive King's</h2><span>Fixed first, responsive later</span><a href="http://neilcarpenter.com/work/responsive-kings/" class="more-other" title="Responsive King's">View this</a></div>
+		    		<img src="http://neilcarpenter.com/wp-content/uploads/2013/05/ikon-home-3_SML.jpg" data-smallsrc="http://neilcarpenter.com/wp-content/uploads/2013/05/ikon-home-3_SML.jpg" data-mediumsrc="http://neilcarpenter.com/wp-content/uploads/2013/05/ikon-home-3_MED.jpg" data-largesrc="http://neilcarpenter.com/wp-content/uploads/2013/05/ikon-home-3_LRG.jpg" alt="Ikon Arts Management" class="RWD-i" />
+                    <div class="flex-caption"><h2 class="section-heading">Ikon Arts Management</h2><span>Ikon Arts</span><a href="http://neilcarpenter.com/work/ikon-arts-management/" class="more-other" title="Ikon Arts Management">View this</a></div>
 		    	</li>
           <li>
-            <img src="http://neilcarpenter.com/wp-content/uploads/2012/10/spiro-home2_SML.jpg" data-smallsrc="http://neilcarpenter.com/wp-content/uploads/2012/10/spiro-home2_SML.jpg" data-mediumsrc="http://neilcarpenter.com/wp-content/uploads/2012/10/spiro-home2_MED.jpg" data-largesrc="http://neilcarpenter.com/wp-content/uploads/2012/10/spiro-home2_LRG.jpg" alt="Spiro" class="RWD-i" />
-                    <div class="flex-caption"><h2 class="section-heading">Spiro</h2><span>Psychedelic spirograph</span><a href="http://neilcarpenter.com/labs/spiro/" class="more-other" title="Spiro">View this</a></div>
+            <img src="http://neilcarpenter.com/wp-content/uploads/2013/05/lurpak-uk-home-1_SML.jpg" data-smallsrc="http://neilcarpenter.com/wp-content/uploads/2013/05/lurpak-uk-home-1_SML.jpg" data-mediumsrc="http://neilcarpenter.com/wp-content/uploads/2013/05/lurpak-uk-home-1_MED.jpg" data-largesrc="http://neilcarpenter.com/wp-content/uploads/2013/05/lurpak-uk-home-1_LRG.jpg" alt="Lurpak UK" class="RWD-i" />
+                    <div class="flex-caption"><h2 class="section-heading">Lurpak UK</h2><span>Responsive Lurpak</span><a href="http://neilcarpenter.com/work/lurpak-uk/" class="more-other" title="Lurpak">View this</a></div>
+          </li>
+          <li>
+            <img src="http://neilcarpenter.com/wp-content/uploads/2013/05/home-milk-matters-1_SML.jpg" data-smallsrc="http://neilcarpenter.com/wp-content/uploads/2013/05/home-milk-matters-1_SML.jpg" data-mediumsrc="http://neilcarpenter.com/wp-content/uploads/2013/05/home-milk-matters-1_LRG.jpg" data-largesrc="http://neilcarpenter.com/wp-content/uploads/2013/05/home-milk-matters-1_XL.jpg" alt="The Milk Matters" class="RWD-i" />
+                    <div class="flex-caption"><h2 class="section-heading">Cravendale</h2><span>The Milk Matters</span><a href="http://neilcarpenter.com/work/the-milk-matters/" class="more-other" title="Lurpak">View this</a></div>
           </li>
 		    </ul>
 		  </div>
@@ -55,7 +55,7 @@
             <p class="intro">Well hello there, nice to see you, how do you do... My name is <b>Neil</b> and I like the <b>Internet</b>. I like to try and make interesting and nice looking <b>websites</b>.</p>
 			<p class="intro-sub">I also like <b>cats</b>, but I can't have one because my flat isn't big enough.</p>
 			
-			<p>Please have a look around, peruse some of the <a href="<?php bloginfo('siteurl');?>/work/" title="Recent work">recent projects</a> and <a href="<?php bloginfo('siteurl');?>/labs/" title="Labs">experiments</a> I've been working on, read some <a href="<?php bloginfo('siteurl');?>/blog/thoughts/" title="Recent thoughts">thoughts</a> on web design and development, check out some <a href="<?php bloginfo('siteurl');?>/blog/snaps/" title="Web snaps">snaps</a> I've collected of interesting bits and pieces from around the internet or read reviews on <a href="<?php bloginfo('siteurl');?>/blog/sites/" title="Good sites">sites</a> that have impressed me. If you feel like getting in touch for any reason, use this <a href="<?php bloginfo('siteurl');?>/contact/">lovely form</a>, or any of the other <a href="<?php bloginfo('siteurl');?>/contact/#social-accounts">social things</a>.</p>
+			<p>Please have a look around, peruse some of the <a href="<?php bloginfo('siteurl');?>/work/" title="Recent work">recent projects</a> and <a href="<?php bloginfo('siteurl');?>/labs/" title="Labs">experiments</a> I've been working on or read some <a href="<?php bloginfo('siteurl');?>/blog/thoughts/" title="Recent thoughts">thoughts</a> on web design and development.<!-- check out some <a href="<?php bloginfo('siteurl');?>/blog/snaps/" title="Web snaps">snaps</a> I've collected of interesting bits and pieces from around the internet or read reviews on <a href="<?php bloginfo('siteurl');?>/blog/sites/" title="Good sites">sites</a> that have impressed me.--> If you feel like getting in touch for any reason, use this <a href="<?php bloginfo('siteurl');?>/contact/">lovely form</a>, or any of the other <a href="<?php bloginfo('siteurl');?>/contact/#social-accounts">social things</a>.</p>
         
 			<a href="<?php bloginfo('siteurl');?>/about" class="more double-hover">More?</a>
 			
@@ -148,6 +148,8 @@
         </div><!--! end of #social-other -->
     
     </div><!--! end of #content -->
+    
+  <?= '<script id="tweetsData">'.getTweets(1).'</script>'; ?>
     
   <?php get_footer(); ?>
 

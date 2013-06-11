@@ -486,6 +486,10 @@ ipad anyway, maybe try again on other devices */
 .slider-holder {
 	margin: 0 0 10px;
 }
+// allow this, OUTCOME? lame
+.outcome {
+	display: none;
+}
 .outcome.slider-holder {
 	margin: 0;
 }
