@@ -28,6 +28,10 @@
 		<div class="flex-container flex-loading">
 			<div class="flexslider">
 		    <ul class="slides">
+          <li>
+            <img src="http://neilcarpenter.com/wp-content/uploads/2013/10/home-love-cravendale-1_SML.jpg" data-smallsrc="http://neilcarpenter.com/wp-content/uploads/2013/10/home-love-cravendale-1_SML.jpg" data-mediumsrc="http://neilcarpenter.com/wp-content/uploads/2013/10/home-love-cravendale-1_LRG.jpg" data-largesrc="http://neilcarpenter.com/wp-content/uploads/2013/10/home-love-cravendale-1_XL.jpg" alt="Love Cravendale" class="RWD-i" />
+                    <div class="flex-caption"><h2 class="section-heading">Cravendale</h2><span>Love Cravendale</span><a href="http://neilcarpenter.com/work/love-cravendale/" class="more-other" title="Lurpak">View this</a></div>
+          </li>  
 		    	<li>
 		    		<img src="http://neilcarpenter.com/wp-content/uploads/2012/10/circle-warp-home2_SML.jpg" data-smallsrc="http://neilcarpenter.com/wp-content/uploads/2012/10/circle-warp-home2_SML.jpg" data-mediumsrc="http://neilcarpenter.com/wp-content/uploads/2012/10/circle-warp-home2_MED.jpg" data-largesrc="http://neilcarpenter.com/wp-content/uploads/2012/10/circle-warp-home2_LRG.jpg" alt="Circle warp" class="RWD-i" />
                     <div class="flex-caption"><h2 class="section-heading">Cirle warp</h2><span>Warped canvas</span><a href="http://neilcarpenter.com/labs/circle-warp/" class="more-other" title="Circle warp">View this</a></div>
